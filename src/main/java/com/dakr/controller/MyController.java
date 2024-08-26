@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 	@RequestMapping("/req1")
     public String hi() {
-		return "savePage";
+		return "savehi............";
 	}
 	
 	@PostMapping("/save")
@@ -23,8 +23,10 @@ public class MyController {
 		return null;
 	}
 	@GetMapping("/update")
+
 	public String getup(){
 		return "Update";
 	}
+
 
 }
