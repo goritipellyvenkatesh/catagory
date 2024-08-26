@@ -23,9 +23,10 @@ public class MyController {
 		return null;
 	}
 	@GetMapping("/update")
-	public String getUpdate(){
-		return null;
+
+	public String getup(){
+		return "Update";
 	}
-	
+
 
 }
