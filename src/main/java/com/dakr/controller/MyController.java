@@ -22,6 +22,10 @@ public class MyController {
 	public String getSave(){
 		return null;
 	}
+	@GetMapping("/update")
+	public String getUpdate(){
+		return null;
+	}
 	
 
 }
